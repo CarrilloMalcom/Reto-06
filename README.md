@@ -75,7 +75,7 @@ if __name__=="__main__":
     print(f"La cantidad de carne de aves es igual a {carne} kg")
 ```
 ## 4.
-###Calcular vueltas o el dinero faltante de una compra de huevos, pan y bolsas de leche, dada la cantidad de cada producto y el dinero con el que se va a comprar
+### Calcular vueltas o el dinero faltante de una compra de huevos, pan y bolsas de leche, dada la cantidad de cada producto y el dinero con el que se va a comprar
 ``` python
 p:int=300
 m:int=3300
@@ -162,3 +162,48 @@ if __name__=="__main__":
 
 ```
 >Las funciones se encuentran en un archivo aparte y se importan a este
+
+
+## pip
+pip es un administrador de paquetes de python que viene ya incluido por defecto con python desde la versión 3.4. Este administrador de paquetes nos deja a través de la linea de comando instalar paquetes de python con todas sus funciones que podemos utilizar en nuestros codigos al importar el paquete completo o las funciones que se van a usar del paquete.
+
+```
+python -m pip install pandas
+```
+>Ejemplo de linea de comando para instalación del paquete o libreria pandas
+
+### Lista de paquetes o librerias conocidos o muy usados
+-Matplotlib: para crear gráficos
+```
+python -m pip install -U matplotlib
+```
+-Tensorflow: construir y entrenar redes neuronales
+```
+python3 -m pip install tensorflow[and-cuda]
+```
+-Pytorch: aprendizaje automático
+```
+python -m pip3 install torch torchvision torchaudio
+```
+-Pandas: para datos y estadistica
+```
+python -m pip install pandas
+```
+-Nummpy: para una estructura de datos universal
+```
+python -m pip install numpy
+```
+-Pyautogui: Controla entrada de teclado y mouse por codigo
+```
+python -m pip install pyautogui
+```
+
+### Referencias:
+-https://pip.pypa.io/en/latest/installation/
+-https://www.w3schools.com/python/python_pip.asp
+-https://immune.institute/blog/librerias-python-que-son/
+-https://matplotlib.org/stable/users/installing/index.html
+-https://www.tensorflow.org/install/pip?hl=es-419
+-https://pytorch.org/
+-https://pandas.pydata.org/docs/getting_started/install.html
+-https://numpy.org/install/
